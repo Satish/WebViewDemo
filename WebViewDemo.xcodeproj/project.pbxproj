@@ -14,6 +14,7 @@
 		75646E871A38837300FFFCE0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75646E861A38837300FFFCE0 /* Images.xcassets */; };
 		75646E8A1A38837300FFFCE0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 75646E881A38837300FFFCE0 /* LaunchScreen.xib */; };
 		75646E961A38837300FFFCE0 /* WebViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 75646E951A38837300FFFCE0 /* WebViewDemoTests.m */; };
+		75646EA11A38870800FFFCE0 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75646EA01A38870800FFFCE0 /* WebViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		75646E8F1A38837300FFFCE0 /* WebViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WebViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		75646E941A38837300FFFCE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		75646E951A38837300FFFCE0 /* WebViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebViewDemoTests.m; sourceTree = "<group>"; };
+		75646E9F1A38870800FFFCE0 /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		75646EA01A38870800FFFCE0 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				75646E7E1A38837300FFFCE0 /* AppDelegate.m */,
 				75646E801A38837300FFFCE0 /* ViewController.h */,
 				75646E811A38837300FFFCE0 /* ViewController.m */,
+				75646E9F1A38870800FFFCE0 /* WebViewController.h */,
+				75646EA01A38870800FFFCE0 /* WebViewController.m */,
 				75646E831A38837300FFFCE0 /* Main.storyboard */,
 				75646E861A38837300FFFCE0 /* Images.xcassets */,
 				75646E881A38837300FFFCE0 /* LaunchScreen.xib */,
@@ -168,6 +173,7 @@
 				TargetAttributes = {
 					75646E751A38837300FFFCE0 = {
 						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = 29ECX39VK2;
 					};
 					75646E8E1A38837300FFFCE0 = {
 						CreatedOnToolsVersion = 6.2;
@@ -222,6 +228,7 @@
 				75646E821A38837300FFFCE0 /* ViewController.m in Sources */,
 				75646E7F1A38837300FFFCE0 /* AppDelegate.m in Sources */,
 				75646E7C1A38837300FFFCE0 /* main.m in Sources */,
+				75646EA11A38870800FFFCE0 /* WebViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,9 +352,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Satish Chauhan (X589EXKQAV)";
 				INFOPLIST_FILE = WebViewDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "acb5601b-6e32-4749-af00-0aeffe595abb";
 			};
 			name = Debug;
 		};
@@ -355,9 +365,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Satish Chauhan (X589EXKQAV)";
 				INFOPLIST_FILE = WebViewDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "acb5601b-6e32-4749-af00-0aeffe595abb";
 			};
 			name = Release;
 		};
@@ -414,6 +427,7 @@
 				75646E9B1A38837300FFFCE0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		75646E9C1A38837300FFFCE0 /* Build configuration list for PBXNativeTarget "WebViewDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +436,7 @@
 				75646E9E1A38837300FFFCE0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
